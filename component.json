@@ -1,0 +1,14 @@
+{
+  "name": "xhr-promise",
+  "repo": "RangerMauve/xhr-promise",
+  "description": "Wrapper for matthewp/xhr that uses promises instead of callbacks",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
