@@ -1,7 +1,7 @@
 
 # xhr-promise
 
-  Wrapper for matthewp/xhr that uses promises instead of callbacks
+  Wrapper for [matthewp/xhr](https://github.com/matthewp/xhr) that uses promises instead of callbacks
 
 ## Installation
 
@@ -11,13 +11,23 @@
 
 ## API
 
-
+  Same as [mathewp/xhr](https://github.com/matthewp/xhr#api) only without callbacks.
+  
+## Example
+``` javascript
+  var xhr = require("xhr-promise");
+  xhr("/foo/bar").then(function(data){
+    alert(data);
+  }).catch(function(err){
+    alert(err.message);
+  });
+```
 
 ## License
 
   The MIT License (MIT)
 
-  Copyright (c) 2014 <copyright holders>
+  Copyright (c) 2014 RangerMauve
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
