@@ -4,7 +4,10 @@
   "description": "Wrapper for matthewp/xhr that uses promises instead of callbacks",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "then/promise": "*",
+    "matthewp/xhr": "*"
+  },
   "development": {},
   "license": "MIT",
   "main": "index.js",
