@@ -3,7 +3,7 @@
   "repo": "RangerMauve/xhr-promise",
   "description": "Wrapper for matthewp/xhr that uses promises instead of callbacks",
   "version": "1.0.0",
-  "keywords": [],
+  "keywords": ["xhr","ajax","promise","http"],
   "dependencies": {
     "then/promise": "*",
     "matthewp/xhr": "*"
