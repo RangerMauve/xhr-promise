@@ -6,7 +6,7 @@
   "keywords": ["xhr","ajax","promise","http"],
   "dependencies": {
     "then/promise": "*",
-    "matthewp/xhr": "*"
+    "RangerMauve/xhr": "*"
   },
   "development": {},
   "license": "MIT",
